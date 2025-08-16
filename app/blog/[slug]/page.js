@@ -9,7 +9,7 @@ export default async function PostPage({ params }) {
   if (!post) return notFound();
 
   return (
-    <article className="bg-white p-6 rounded shadow">
+    <article className="bg-white p-6 rounded shadow w-full">
       <h1 className="text-3xl font-bold mb-2">{post.title}</h1>
       <Image src={post.image} alt={post.title} width={800} height={500} className="rounded mb-4" />
       <p>{post.excerpt}</p>

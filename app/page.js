@@ -10,9 +10,9 @@ export default async function HomePage() {
   const posts = await getPosts();
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col w-full">
       {/* Page Heading */}
-      <header className="py-10 bg-gray-100 dark:bg-gray-900">
+      <header className="py-10 bg-gray-100 dark:bg-gray-900 w-full">
         <h1 className="text-4xl sm:text-5xl font-bold text-center text-gray-900 dark:text-white">
           Welcome to My Blog
         </h1>
