@@ -1,7 +1,7 @@
 
 
 // import { getPosts } from "@/app/lib/posts"; 
-import { getPosts } from "./lib/posts";
+import { getPosts } from "../lib/posts";
 // when lib/posts.js is at project root
 import Link from "next/link";
 export default async function BlogPage() {
