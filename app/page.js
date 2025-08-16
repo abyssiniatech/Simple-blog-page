@@ -16,13 +16,13 @@ export default async function HomePage() {
         <h1 className="text-4xl sm:text-5xl font-bold text-center text-gray-900 dark:text-white">
           Welcome to My Blog
         </h1>
-        <p className="mt-4 text-center text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+        <p className="mt-4 text-center text-gray-600 dark:text-gray-300  mx-auto">
           Discover the latest posts, travel stories, and tips from around the world.
         </p>
       </header>
 
       {/* Posts Grid */}
-      <main className="flex-1 px-4 py-10 max-w-6xl mx-auto">
+      <main className="flex-1 px-4 py-10 max-w-6xl mx-auto w-full" >
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {posts.map((post) => (
             <div
@@ -40,7 +40,7 @@ export default async function HomePage() {
                 />
               </div>
 
-              <div className="p-4 flex flex-col flex-1">
+              <div className="p-4 flex flex-col flex-1 w-full">
                 <h2 className="text-xl font-semibold mt-2 text-gray-900 dark:text-white">
                   {post.title}
                 </h2>
