@@ -2,9 +2,9 @@
 import Footer from "./components/Footer";
 import Image from "next/image";
 import Link from "next/link";
-// import { getPosts } from "./lib/posts";
-// import { getPosts } from "@/lib/posts";
-import {  getPosts} from "./lib/posts"
+import { getPosts } from "./lib/posts";
+
+
 
 export default async function HomePage() {
   const posts = await getPosts();
