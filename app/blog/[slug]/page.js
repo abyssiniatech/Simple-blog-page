@@ -1,5 +1,6 @@
-// import { getPosts } from "@/lib/posts";
-import { getPosts } from "../lib/posts";
+
+
+import { getPosts } from "../../lib/posts";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 
